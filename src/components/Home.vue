@@ -8,12 +8,12 @@
       </auth-modal>
         <div class="user">
           <div class="user_data" @click="showPopupWindowForLogin">
-          <img src='../media/images/user.png'/>
+          <img src='../assets/images/user.png'/>
             <small v-show="!isAuthenticated">Guest</small>
           </div>
         </div>
       <header class="App-header">
-        <img src='../media/images/logo.png' class="App-logo" alt="logo" />
+        <img src='../assets/images/logo.png' class="App-logo" alt="logo" />
         <p>
          Welcome to codemarka Sandbox
         </p>
