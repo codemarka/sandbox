@@ -1,6 +1,6 @@
 <template>
   <transition name="modal-fade">
-    <div class="modal-backdrop" @click="close">
+    <div class="modal-backdrop" id="main" @click="close">
       <div class="modal"
         role="dialog"
         aria-labelledby="modalTitle"
@@ -54,8 +54,8 @@
   export default {
     name: 'modal',
     methods: {
-      close() {
-        this.$emit('close');
+      close(e) {
+        e.target.id === 'main' &&  this.$emit('close');
       },
     },
   };
