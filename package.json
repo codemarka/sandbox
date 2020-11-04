@@ -22,6 +22,7 @@
     "babel-preset-stage-2": "^6.24.1",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
+    "dotenv-webpack": "^4.0.0",
     "file-loader": "^0.9.0",
     "vue-loader": "^9.7.0",
     "webpack": "2.1.0-beta.25",

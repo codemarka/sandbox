@@ -7,7 +7,12 @@ const state = {
 
 const mutations = { // equivalent of reducers in redux
   'SET_USER_DATA'(state, data ){
-    state.user = data; 
+    state.user = data.user; 
+    state.isAuthenticated = true;
+  },
+  'SET_USER_NOT_AUTHENICATED'(state){
+    state.user =  null;
+    state.isAuthenticated =  false
   }
 }
 
