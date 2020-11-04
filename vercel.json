@@ -1,16 +1,9 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": ".*",
-      "dest": "/index.html"
-    }
-  ],
   "alias": "https://sandbox.codemarka.dev",
   "env": {
     "VUE_APP_REMOTE_API_URL": "https://api.sandbox.codemarka.com/api/v1/",
     "VUE_APP_LOCAL_API_URL": "http://localhost:8888/api/v1/",
     "VUE_APP_ENV":"production"
-  },
-  "cleanUrls": true
+  }
 }
