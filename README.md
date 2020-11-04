@@ -43,7 +43,7 @@ In order to ensure that the Codemarka community is welcoming to all, please revi
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Codemarka, please send an e-mail to Johnson-Awah Alfred via [johnsonmessilo19@gmail.com](mailto:johnsonmessilo19@gmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Codemarka, please send an e-mail to Johnson-Awah Alfred via [johnsonmessilo19@gmail.com](mailto:johnsonmessilo19@gmail.com) All security vulnerabilities will be promptly addressed.
 
 ## License
 
