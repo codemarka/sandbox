@@ -1,8 +1,21 @@
-<p align="center"><a href="https://sandbox.codemarka.dev" target="_blank"><img src="https://avatars0.githubusercontent.com/u/72467876?s=460&u=84db6281488164d91aed07ed13744ad31a284561&v=4" width="400"></a></p>
+<p align="center"><a href="https://sandbox.codemarka.dev" target="_blank"><img src="https://avatars0.githubusercontent.com/u/72467876?s=460&u=84db6281488164d91aed07ed13744ad31a284561&v=4" width="70"></a></p>
 
 <p align="center">
-<a href="https://travis-ci.org/codemarka/sandbox"><img src="https://travis-ci.org/codemarka/sandbox.svg" alt="Build Status"></a>
+<a href="http://makeapullrequest.com/">[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)</a>
+<a href="https://www.firsttimersonly.com/">[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)</a>
 </p>
+
+## Getting Started
+
+```
+- npm install --save
+- npm run dev
+
+```
+
+## Features
+
+Please Check issues for features and bugs to start contributing.
 
 ## About Codemarka Sandbox
 
