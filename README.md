@@ -35,11 +35,11 @@ If you are interested in becoming a sponsor, please visit the Codemarka [Patreon
 
 ## Contributing
 
-Thank you for considering contributing to the Codemarka sandbox! The contribution guide can be found in the [Contribution Guide](https://Codemarka.com/docs/contributions).
+Thank you for considering contributing to the Codemarka sandbox! The contribution guide can be found in the [Contribution Guide](https://codemarka.dev/docs/contributions).
 
 ## Code of Conduct
 
-In order to ensure that the Codemarka community is welcoming to all, please review and abide by the [Code of Conduct](https://Codemarka.com/docs/contributions#code-of-conduct).
+In order to ensure that the Codemarka community is welcoming to all, please review and abide by the [Code of Conduct](https://codemarka.dev/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
@@ -48,3 +48,11 @@ If you discover a security vulnerability within Codemarka, please send an e-mail
 ## License
 
 The Codemarka framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Simple Guide to Start Contribution
+
+- Fork the project to your github account
+- After forking the project, Clone the project
+- Run "npm install" to install required modules
+- After installing the required node modules, run "npm run dev" to start your development server
+- You are good to go! We can't wait to see amazing things you'll contributing here.
