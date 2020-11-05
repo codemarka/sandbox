@@ -1,7 +1,7 @@
 <p align="center"><a href="https://sandbox.codemarka.dev" target="_blank"><img src="https://avatars0.githubusercontent.com/u/72467876?s=460&u=84db6281488164d91aed07ed13744ad31a284561&v=4" width="70"></a></p>
 
 <p align="center">
- [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)</a>
+ [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
 </p>
 
