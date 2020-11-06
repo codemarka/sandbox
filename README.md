@@ -18,7 +18,7 @@ Codemarka sandbox is a lightweight web application for <a target="_blank" href="
 - Classroom Attendance
 - Short Links
 - Privacy
-- Colab Mode
+- Collaboration Mode
 - Bootcamp Mode
 - Interview Mode
 - Presentation Mode
