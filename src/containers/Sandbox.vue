@@ -50,6 +50,7 @@ div.sandox-container-main {
   .loader {
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -69,14 +70,16 @@ export default {
     appSpinner: Spinner,
     appNavigation: Navigation
   },
-      metaInfo: {
-      title: `Chek my Sandbox  - ${this.id}`,
+    metaInfo(){
+      return {
+        title: `Check my Sandbox  - ${this.id}`
+      }
     },
   data: function() {
     return {
       id: this.$route.params.sandbox_id,
       initiatedVerification: false,
-      isVerified: true,
+      isVerified: false,
       editorOptions:{
         showGutter: false,
         theme: 'dracula'
@@ -110,7 +113,9 @@ export default {
     }
   },
   created() {
-    console.log(this.$route.params.sandbox_id)
+    setTimeout(() => {
+      this.isVerified = true;
+    }, 1500);
   },
   methods: {
      editorInit (editor) {
