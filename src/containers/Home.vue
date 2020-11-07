@@ -27,7 +27,7 @@
           @click="createSandbox"
           >
           <app-spinner v-if="isCreatingSandbox"></app-spinner>
-          <span class="start-code" v-else>Start Coding</span>
+          <span v-else>Start Coding</span>
 
           </button>
           <a type="button" class="github_button" target="_blank" href="https://github.com/codemarka/sandbox">
