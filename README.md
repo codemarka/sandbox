@@ -30,7 +30,7 @@ Codemarka sandbox is a lightweight web application for <a target="_blank" href="
 - Classroom Attendance
 - Short Links
 - Privacy
-- Colab Mode
+- Collaboration Mode
 - Bootcamp Mode
 - Interview Mode
 - Presentation Mode
@@ -47,11 +47,11 @@ If you are interested in becoming a sponsor, please visit the Codemarka [Patreon
 
 ## Contributing
 
-Thank you for considering contributing to the Codemarka sandbox! The contribution guide can be found in the [Contribution Guide](https://Codemarka.com/docs/contributions).
+Thank you for considering contributing to the Codemarka sandbox! The contribution guide can be found in the [Contribution Guide](https://codemarka.dev/docs/contributions).
 
 ## Code of Conduct
 
-In order to ensure that the Codemarka community is welcoming to all, please review and abide by the [Code of Conduct](https://Codemarka.com/docs/contributions#code-of-conduct).
+In order to ensure that the Codemarka community is welcoming to all, please review and abide by the [Code of Conduct](https://codemarka.dev/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
