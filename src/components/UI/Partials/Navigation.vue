@@ -39,7 +39,7 @@ export default {
 
 <style scoped>
 .navigation_home {
-  min-height: 10%;
+  min-height: 9.9%;
     display: flex;
     width: 100%;
     justify-content: space-between;
