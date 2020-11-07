@@ -2,20 +2,18 @@
       <div class="App">
         
         <div class="navigation_home">
-          <div class="nav_logo">
-        <img src='../assets/images/logo.png' class="App-logo" alt="logo" />
-         Sandbox
-        </div>
+            <div class="nav_logo">
+              <img src='../assets/images/logo.png' class="App-logo" alt="logo" />
+              Sandbox
+            </div>
 
-          <div class="user_data" @click="redirectToCodemarkaLogin">
-          <img src='../assets/images/user.png'/>
-           <small v-if="isAuthenticated">
-            Hi, {{ user.displayName }}!
-          </small>
-            <small v-else>Guest</small>
-            
-          </div>
-         
+            <div class="user_data" @click="redirectToCodemarkaLogin">
+              <i class="far fa-user" id="user_data"></i>
+              <small v-if="isAuthenticated">
+                Hi, {{ user.displayName }}!
+              </small>
+              <small v-else>Guest</small>
+            </div>
         </div>
 
       <header class="App-header">
@@ -130,7 +128,6 @@ export default {
     color: #fff;
     position: relative;
     align-items: center;
-    border-bottom: 1px solid;
 }
 
 .nav_logo {
@@ -172,7 +169,7 @@ export default {
   display:flex;
   width:100%;
   flex-direction:column;
-  height: 100vh;
+  height: 99vh;
   max-height: 100vh;
   background-color: #282c34;
 }
@@ -208,6 +205,14 @@ export default {
     border-radius: 0.25rem;
     font-weight: 600;
     font-size: 0.8em;
+}
+
+#user_data {
+  background-color: #1a1c21;
+  border-radius: 40px;
+  color: #ed217c;
+  padding: 1em;
+  font-size: 0.9em;
 }
 
 @keyframes App-logo-spin {
@@ -261,10 +266,10 @@ export default {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    width:10rem;
+    width:6rem;
     border-radius: 0.25rem;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     margin-left:.5rem;
   }
   .App-link {
@@ -274,10 +279,10 @@ export default {
     cursor: pointer;
     font-size: smaller;
     background: #ed217c;
-    width:10rem;
+    width:8rem;
     border-radius: 0.25rem;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 
