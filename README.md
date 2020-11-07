@@ -60,11 +60,3 @@ If you discover a security vulnerability within Codemarka, please send an e-mail
 ## License
 
 The Codemarka framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Simple Guide to Start Contribution
-
-- Fork the project to your github account
-- After forking the project, Clone the project
-- Run "npm install" to install required modules
-- After installing the required node modules, run "npm run dev" to start your development server
-- You are good to go! We can't wait to see amazing things you'll contributing here.
