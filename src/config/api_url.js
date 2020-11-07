@@ -13,5 +13,5 @@ export const CODEMARKA_LOGIN = `${CODEMARKA_API}/auth/user/signin`
 export const CODEMARKA_SIGNUP = `${CODEMARKA_API}/auth/user/signup`
 export const CODEMARKA_TOKEN_VERIFY = `${CODEMARKA_API}/auth/user/token/verify`
 
-export const CREATE_SANDBOX = `${SANDBOX_API}/sanbox/create`;
+export const CREATE_SANDBOX = `${SANDBOX_API}/sandbox/create`;
 

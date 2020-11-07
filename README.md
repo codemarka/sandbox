@@ -3,6 +3,7 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+[![Gitter](https://badges.gitter.im/codemarka-sandbox/community.svg)](https://gitter.im/codemarka-sandbox/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ## Getting Started
 
