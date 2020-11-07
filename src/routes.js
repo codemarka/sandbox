@@ -4,6 +4,6 @@ import NotFound from './containers/NotFound.vue';
 
 export const routes = [
   { path:'/', component: Home},
-  { path:'/:sanbox_id', component: Sandbox},
+  { path:'/:sandbox_id', component: Sandbox},
   { path:'*', component: NotFound},
 ]
