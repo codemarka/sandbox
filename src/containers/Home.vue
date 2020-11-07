@@ -1,23 +1,6 @@
 <template>
       <div class="App">
-        
-        <div class="navigation_home">
-          <div class="nav_logo">
-        <img src='../assets/images/logo.png' class="App-logo" alt="logo" />
-         Sandbox
-        </div>
-
-          <div class="user_data" @click="redirectToCodemarkaLogin">
-          <img src='../assets/images/user.png'/>
-           <small v-if="isAuthenticated">
-            Hi, {{ user.displayName }}!
-          </small>
-            <small v-else>Guest</small>
-            
-          </div>
-         
-        </div>
-
+        <app-navigation :isAuthenticated="isAuthenticated" :user="user" @initAuth="redirectToCodemarkaLogin"></app-navigation>
       <header class="App-header">
         <h2>Learn. Build. Share</h2>
         <small class="app-description">A lightweight version for codemarka classrooms also in realtime, built with ''💗''.</small>
@@ -44,12 +27,14 @@
 
 <script>
 import Spinner from '../components/UI/Partials/Spinner.vue';
+import Navigation from '../components/UI/Partials/Navigation.vue';
 
 import * as REMOTE_API from '../config/api_url';
 
 export default {
   components:{
     appSpinner: Spinner,
+    appNavigation: Navigation
   },
   created() {
         const params = new URLSearchParams(window.location.search)
@@ -64,7 +49,6 @@ export default {
   },
   data() {
     return {
-      isModalVisible: false,
       url: process.env.VUE_APP_ENV,
       errorMessage:null
     }
@@ -84,12 +68,8 @@ export default {
     }
   },
   methods: {
-   
     redirectToCodemarkaLogin(){
       if(!this.isAuthenticated)   window.location.href = `https://codemarka.dev/auth/signin?redir=${window.location.origin}`
-    },
-    closeModal(){
-      this.isModalVisible = false;
     },
     createSandbox(){
        this.$store.dispatch('sandbox/creatingSandboxInit')
@@ -108,7 +88,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
 .error_message {
   margin-top:20px;
@@ -132,48 +112,6 @@ export default {
     font-weight: 600;
     margin-left:.5rem;
 }
-.navigation_home {
-  min-height: 5rem;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    color: #fff;
-    position: relative;
-    align-items: center;
-    border-bottom: 1px solid;
-}
-
-.nav_logo {
-      display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 14px;
-    top:9px;
-    font-family: 'Barlow Condensed';
-}
-
-.nav_logo img.App-logo {
-  width:30px;
-}
-.navigation_home div.user_data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-right: 10px;
-    cursor: pointer;
-    align-items: center;
-    position: absolute;
-    right: 11px;
-    top:11px; 
-}
-
-.navigation_home img {
-      height: 2.4rem;
-    width: 2.4rem;
-}
 .app-description {
   color: darkgrey;
     margin: 0 0px 30px 0;
@@ -182,8 +120,8 @@ export default {
   display:flex;
   width:100%;
   flex-direction:column;
-  height: 100vh;
-  min-height: 100vh;
+  height: 99.9vh;
+  min-height: 99.9vh;
   background-color: #282c34;
 }
 
@@ -217,15 +155,6 @@ export default {
     width:8rem;
     border-radius: 0.25rem;
     font-weight: 600;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 </style>

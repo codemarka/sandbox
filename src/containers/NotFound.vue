@@ -5,7 +5,13 @@
     <router-link to='/'>return home</router-link>
   </div>
 </template>
-
+<script>
+export default {
+   metaInfo: {
+      title: `Page Not Found - Codemarka Sandbox`,
+    },
+}
+</script>
 <style scoped>
   div {
     display: flex;
