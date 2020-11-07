@@ -57,6 +57,7 @@ export default {
         if(params.has('user')){
           localStorage.setItem('user',params.get('user'))
         }
+        this.$store.dispatch('verifyUser')
         window.history.pushState(null , "Home - Sandbox", "/")
   },
   data() {
