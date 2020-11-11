@@ -6,7 +6,7 @@
         </div>
 
           <div class="user_data" @click="navClicked">
-          <img src='../../../assets/images/user.png'/>
+          <i class="far fa-user" id="user_data"></i>
            <small v-if="isAuthenticated">
             Hi, {{ user.displayName }}!
           </small>
@@ -46,7 +46,8 @@ export default {
     color: #fff;
     position: relative;
     align-items: center;
-    border-bottom: 1px solid;
+    background: #1a1c21;
+    padding-bottom: 1em;
 }
 
 
@@ -56,7 +57,7 @@ export default {
     align-items: center;
     justify-content: center;
     position: absolute;
-    left: 14px;
+    left: 19px;
     top:9px;
     font-family: 'Barlow Condensed';
 }
@@ -69,16 +70,21 @@ export default {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding-right: 10px;
+    padding-right: 15px;
     cursor: pointer;
     align-items: center;
     position: absolute;
     right: 11px;
-    top:11px; 
+    top:8px; 
 }
 
 .navigation_home img {
-      height: 2.4rem;
+    height: 2.4rem;
     width: 2.4rem;
+}
+
+#user_data {
+   color: #f76363;
+   font-size: 0.95rem;
 }
 </style>
